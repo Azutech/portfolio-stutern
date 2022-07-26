@@ -41,10 +41,11 @@ const About = () => {
           </div>
        
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem corrupti cum cumque maiores hic? 
-            Tempore quasi eligendi voluptate molestias vero cum et quo consequatur praesentium quos! Dolore impedit 
-            temporibus magnam? Culpa eum ab repudiandae aut laboriosam, facere assumenda perspiciatis incidunt maiores 
-            officiis aperiam, ducimus repellat?
+          Brilliant Software Engineer Intern, help teams develop ideas and implement code on various products; 
+          while gaining valuable experience with the latest technologies and tools. 
+          Applies knowledge and skills acquired from coursework to work on software, back-end systems architecture and more. 
+          Hones problem-solving skills to keep projects moving forward.
+
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

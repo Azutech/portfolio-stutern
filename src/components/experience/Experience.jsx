@@ -72,8 +72,8 @@ const experience = () => {
             <article className="experirence__details">
             <BsPatchCheck className='experience__details-icons'/>
                <div> 
-               <h4>JavaScript</h4>
-               <small className="text-light">Beginner</small>
+               <h4>Mongo DB</h4>
+               <small className="text-light">Intermidiate</small>
                </div>
             </article>
           </div>
