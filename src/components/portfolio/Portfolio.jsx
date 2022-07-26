@@ -1,40 +1,43 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Portfolio/Capture.PNG'
-import IMG2 from '../../assets/Portfolio/Screenshot (18).png'
+import IMG2 from '../../assets/Portfolio/smart_contract.jpg'
+import IMG3 from '../../assets/Portfolio/Capture-stutern.JPG'
+import IMG4 from '../../assets/Portfolio/Capture--prolego.JPG'
+import IMG5 from '../../assets/Portfolio/coffee-laptop.jfif'
 
 
 const data = [
   {
     id: 1 ,
-    image: IMG1,
-    title:"These are the demo projects",
-    github: "https://github.com",
-    demo: ""
+    image: IMG4,
+    title:"Prolego",
+    github: "https://github.com/salimkarbm/Prolego",
+    demo: "https://prolego.vercel.app/"
   },
 
   {
     id: 2 ,
-    image: IMG1,
-    title:"These are the demo projects",
-    github: "https://github.com",
-    demo: ""
+    image: IMG5,
+    title:"Coffee StoreFront API ",
+    github: "https://github.com/Azutech/StoreFront-Backend-API",
+    demo: "https://github.com/Azutech/StoreFront-Backend-API"
   },
 
   {
     id: 3 ,
-    image: IMG2,
-    title:"These are the demo projects",
-    github: "https://github.com",
-    demo: ""
+    image: IMG3,
+    title:"Stutern Clone Website",
+    github: "https://github.com/Azutech/Stutern-clone-biweekly-challenge",
+    demo: "https://Azutech.github.io/Stutern-clone-biweekly-challenge"
   },
 
   {
     id: 4 ,
     image: IMG2,
-    title:"These are the demo projects",
-    github: "https://github.com",
-    demo: ""
+    title:"Smart Contract",
+    github: "https://github.com/Azutech/smart-contract",
+    demo: "https://github.com/Azutech/smart-contract"
   },
 
   
@@ -55,7 +58,7 @@ const Portfolio = () => {
           <article key ={id} className="portfolio__item">
           <div className="portfolio__item-img">
             <img src = {image} alt = {title}/>
-            <h3>These is a Portfolio Projects</h3>
+            <h3>These are the Portfolio Projects</h3>
             <div className="portfolio__item-cta"> 
               <a href= {github} className='btn' target={github}>Github</a>
               <a href= {demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
