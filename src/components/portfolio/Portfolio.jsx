@@ -1,6 +1,5 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Portfolio/Capture.PNG'
 import IMG2 from '../../assets/Portfolio/smart_contract.jpg'
 import IMG3 from '../../assets/Portfolio/Capture-stutern.JPG'
 import IMG4 from '../../assets/Portfolio/Capture--prolego.JPG'
@@ -36,8 +35,8 @@ const data = [
     id: 4 ,
     image: IMG2,
     title:"Smart Contract",
-    github: "https://github.com/Azutech/smart-contract",
-    demo: "https://github.com/Azutech/smart-contract"
+    github: "https://github.com/Azutech/Coffee-Defi-app",
+    demo: "https://github.com/Azutech/Coffee-Defi-app"
   },
 
   

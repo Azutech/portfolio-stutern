@@ -3,7 +3,6 @@ import "./contact.css";
 import { HiMail } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
